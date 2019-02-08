@@ -1,0 +1,23 @@
+{
+  "name": "nature-of-code",
+  "version": "1.0.0",
+  "description": "My implementations of the nature of code",
+  "main": "build/index.js",
+  "author": "Sander Lissenburg",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "watch": "node_modules/.bin/webpack --watch"
+  },
+  "dependencies": {
+    "huygens": "^0.1.2",
+    "pixi.js": "^4.8.2"
+  },
+  "devDependencies": {
+    "@types/pixi.js": "^4.8.1",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
